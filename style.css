@@ -38,7 +38,14 @@ a {
 
 .nav-link{
   color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
+
+.nav-item .button{
+  margin-left: 1rem;
+}
+
 
 .nav-link:hover{
   color: var(--orange1)!important;
@@ -140,7 +147,6 @@ a {
   height: 100vh;
   margin: auto;
   padding-top: 5rem;
-  border: solid 0.5rem red;
 }
 
 .foto-calon-container {
