@@ -12,13 +12,13 @@
         height: auto;
     }
 
-    .nav-logo a img { 
+    /* .nav-logo a img { 
         width: 100px;
     }
 
     .nav-link { 
         display: none;
-    }
+    } */
 
     #header-page { 
         flex-wrap: wrap-reverse;
