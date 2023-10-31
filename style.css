@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Josefin+Sans:wght@500&display=swap&");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Josefin+Sans:wght@500&display=swap&');
 
 @font-face {
-  font-family: "Gotham-bold";
+  font-family: 'Gotham-bold';
   src: url(font/GothamBold.ttf);
 }
 
@@ -9,6 +9,12 @@
   --orange1: #ff7900;
   --purple1: #3c096c;
   --purple2: #7b2cbf;
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
 }
 
 * {
@@ -20,7 +26,7 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 20px;
   color: #fff;
   background: linear-gradient(90deg, #240046 0%, rgba(60, 9, 108, 0.8) 100%);
@@ -30,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-nav {
+/* nav {
   width: 100%;
   padding: 1rem 3rem;
   display: flex;
@@ -45,23 +51,31 @@ nav {
   margin-top: -10px;
 }
 
-.nav-links-list {
+.nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
 }
 
-.nav-links-list .nav-link a {
+.nav-link a {
   color: #fff;
 }
 
-.nav-links-list .nav-link a:hover {
+.nav-link a:hover {
   color: var(--orange1);
+} */
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: var(--orange1)!important;
 }
 
 .heading {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-size: 60px;
 }
 
@@ -87,6 +101,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  /* border: solid 1rem red; */
 }
 
 .header-text {
@@ -106,12 +121,7 @@ nav {
 }
 
 .header-logo {
-  background: linear-gradient(
-    180deg,
-    #f89f0e 0%,
-    rgba(236, 178, 83, 0.58) 31.27%,
-    rgba(255, 158, 0, 0) 100%
-  );
+  background: linear-gradient(180deg, #f89f0e 0%, rgba(236, 178, 83, 0.58) 31.27%, rgba(255, 158, 0, 0) 100%);
   margin: 2rem;
   width: 400px;
   height: 400px;
@@ -159,6 +169,7 @@ nav {
   height: 100vh;
   margin: auto;
   padding-top: 5rem;
+  border: solid 0.5rem red;
 }
 
 .foto-calon-container {
